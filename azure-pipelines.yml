@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'f11c4931-6ffe-4142-9390-ab8e10ec919f'
+  dockerRegistryServiceConnection: ''
   imageRepository: 'bwhittingtonfoundryvttdocker'
   containerRegistry: 'fathervtt.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
